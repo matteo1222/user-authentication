@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Sign Up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="http://localhost:5000/users/signup" method="post" class="form-container" id="signUpForm" name="signUpForm">
+            <h1 class="form-title">Create Account</h1>
+            <div class="form-input-container">
+                <label for="username" class="form-label">Name</label>
+                <input type="text" id="username" name="username" class="form-input" placeholder="Enter Your Name">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" id="email" name="email" class="form-input" placeholder="Enter Your Email">
+                <label for="password" class="form-label">Password</label>
+                <input type="text" id="password" name="password" class="form-input" placeholder="Enter Your Password">
+                
+                
+            </div>
+            <div class="form-terms-container">
+                <input type="checkbox" name="" id="terms" class="form-checkbox">
+                <p class="form-terms">I agree to the terms and policy</p>
+            </div>
+            <button type="submit" class="form-button">Sign Up</button>
+        </form>
+
+        <script src="userSignUp.js"></script>
+    </body>
+</html>
