@@ -60,8 +60,11 @@ body {
     border-radius: 3px;
     padding: 0.3em 0.8em;
     border: 2px solid rgb(204, 202, 193);
-    margin: 0.3em 0;
-    
+    margin-bottom: 1em;
+}
+
+.form-input:last-child {
+    margin-bottom: 0;
 }
 
 ::-webkit-input-placeholder {
